@@ -1,0 +1,35 @@
+.login-container {
+    width: 400px;
+    margin: 4rem auto;
+    padding: 2rem;
+    border-radius: 16px;
+    background: #ffffff;
+    text-align: left;
+    border: 1px solid #e6e6e6;
+}
+
+.login-title {
+    text-align: center;
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 0.3rem;
+}
+
+.login-subtitle {
+    text-align: center;
+    color: #666;
+    font-size: 14px;
+    margin-bottom: 1.5rem;
+}
+
+.login-btn {
+    height: 45px;
+    font-size: 16px;
+    border-radius: 10px;
+}
+
+.login-container input {
+    height: 45px;
+    border-radius: 10px;
+    font-size: 15px;
+}

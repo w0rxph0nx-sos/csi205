@@ -1,0 +1,42 @@
+* {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: xx-large;
+}
+
+.cal-container {
+    margin: 1rem auto;
+    width: fit-content;
+    border: 5px solid black;
+    padding: 0.5rem;
+    border-radius: 20px;
+    background-color: lightgray;
+}
+.cal-screen {
+    background-color: azure;
+    border: 2px solid gray;
+    border-radius: 10px;
+    text-align: right;
+    padding: 0.5rem;
+    margin: 0.125rem 0.125rem 1rem 0.125rem;
+}
+.cal-btn {
+    width: 2.5rem;
+    height: 2.5rem;
+    margin: 0.25rem 0.125rem;
+    border-radius: 10px;
+}
+.cal-btn-green {
+    background-color: green;
+}
+.cal-btn-blue {
+    background-color: blue;
+}
+.cal-btn-red {
+    background-color: red;
+}
+.cal-btn-hover:hover {
+    background-color: orange;
+}
+.cal-btn-orange {
+    background-color: orange;
+}

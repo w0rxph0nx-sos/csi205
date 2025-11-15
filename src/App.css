@@ -1,0 +1,64 @@
+/* ตัวอย่าง CSS สำหรับ AppHeader */
+.app-header-container {
+    background-color: #007bff; /* สีฟ้าตามภาพตัวอย่าง */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+}
+
+.app-header-container h1 {
+    font-size: 1.5rem;
+    margin: 0;
+}
+
+.app-header-container .student-info {
+    font-size: 0.8rem;
+    margin: 5px 0 0;
+}
+
+/* ตัวอย่าง CSS สำหรับ AppFooter */
+.app-footer-container {
+    background-color: #0056b3; /* สีน้ำเงินเข้ม */
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 0.9rem;
+}
+
+.app-footer-container p {
+    margin: 5px 0;
+}
+
+.app-footer-container a {
+    color: #ffc107; /* สีทอง/เหลือง เพื่อให้มองเห็นลิงก์ชัดเจน */
+    text-decoration: none;
+    margin: 0 5px;
+}
+
+.app-footer-container a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+/* 1. ตั้งค่า HTML และ Body ให้สูงเต็มหน้าจอ */
+html, body, #root { 
+    height: 100%; 
+    margin: 0;
+    padding: 0;
+}
+
+/* 2. Container หลัก: ทำให้เป็น Flexbox และสูงเต็มจอ */
+.app-layout-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;     
+}
+
+/* 3. Content Wrapper: ส่วนที่ขยายตัวได้ */
+.content-wrapper { 
+    flex-grow: 1; 
+}
+
+
